@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Qwiik.Invoicing.Api", "src\Qwiik.Invoicing.Api\Qwiik.Invoicing.Api.csproj", "{A1E4B7C2-6D3F-4E8A-9B1C-2F5D8E7A6C41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Qwiik.Invoicing.Tests", "tests\Qwiik.Invoicing.Tests\Qwiik.Invoicing.Tests.csproj", "{B2F5C8D3-7E4A-4F9B-8C2D-3A6E9F8B7D52}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1E4B7C2-6D3F-4E8A-9B1C-2F5D8E7A6C41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1E4B7C2-6D3F-4E8A-9B1C-2F5D8E7A6C41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1E4B7C2-6D3F-4E8A-9B1C-2F5D8E7A6C41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1E4B7C2-6D3F-4E8A-9B1C-2F5D8E7A6C41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2F5C8D3-7E4A-4F9B-8C2D-3A6E9F8B7D52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2F5C8D3-7E4A-4F9B-8C2D-3A6E9F8B7D52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2F5C8D3-7E4A-4F9B-8C2D-3A6E9F8B7D52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2F5C8D3-7E4A-4F9B-8C2D-3A6E9F8B7D52}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

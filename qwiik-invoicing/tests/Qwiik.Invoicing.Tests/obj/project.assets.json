@@ -1,0 +1,92 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Qwiik.Invoicing.Api/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Qwiik.Invoicing.Api.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Qwiik.Invoicing.Api.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Qwiik.Invoicing.Api/1.0.0": {
+      "type": "project",
+      "path": "../../src/Qwiik.Invoicing.Api/Qwiik.Invoicing.Api.csproj",
+      "msbuildProject": "../../src/Qwiik.Invoicing.Api/Qwiik.Invoicing.Api.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Qwiik.Invoicing.Api >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\OKulkarni\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\OKulkarni\\Desktop\\Invoice\\invoicing\\qwiik-invoicing\\tests\\Qwiik.Invoicing.Tests\\Qwiik.Invoicing.Tests.csproj",
+      "projectName": "Qwiik.Invoicing.Tests",
+      "projectPath": "C:\\Users\\OKulkarni\\Desktop\\Invoice\\invoicing\\qwiik-invoicing\\tests\\Qwiik.Invoicing.Tests\\Qwiik.Invoicing.Tests.csproj",
+      "packagesPath": "C:\\Users\\OKulkarni\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\OKulkarni\\Desktop\\Invoice\\invoicing\\qwiik-invoicing\\tests\\Qwiik.Invoicing.Tests\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\OKulkarni\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "C:\\Users\\OKulkarni\\Desktop\\Invoice\\invoicing\\qwiik-invoicing\\src\\Qwiik.Invoicing.Api\\Qwiik.Invoicing.Api.csproj": {
+              "projectPath": "C:\\Users\\OKulkarni\\Desktop\\Invoice\\invoicing\\qwiik-invoicing\\src\\Qwiik.Invoicing.Api\\Qwiik.Invoicing.Api.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
